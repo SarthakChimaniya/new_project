@@ -1,0 +1,165 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+#container #background{
+    height: 100%;
+    width: 100%;
+}
+#hero{
+    height: 900px;
+    width: 1200px;
+    position: absolute; 
+    right: 20px;   
+    top: 200px;
+}
+#logo{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    bottom: 100vh;
+    left: 100px;
+}
+#navigtionbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 940px;
+    left: 450px;
+}
+#navigtionbar li{
+    font-size:25px;
+}
+#carloan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 50px -10px #5b5959;
+    border-radius: 50px;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    bottom: 900px;
+    left: 900px;
+    background-color: white;
+}
+#car{
+    width: 80px;
+    height: 80px;
+}
+#carloan h1{
+    color: grey;
+}
+#Homeloan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 80px -10px #5b5959;
+    border-radius: 50px;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    bottom: 800px;
+    left: 1700px;
+    background-color: white;
+}
+#home{
+    width: 80px;
+    height: 80px;
+}
+#Homeloan h1{
+    color: grey;
+}
+#Content{
+    position: relative;
+    bottom: 990px;
+    left: 100px;
+}
+#Content h1{
+    font-size: 100px;
+}
+#Content h2{
+    color: grey;
+    font-size: 30px;
+}
+#Applybutton{
+    background-color: #ed017f;
+    border: 5px solid #ed017f ;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 940px;
+    left: 100px;
+}
+#Applybutton h1{
+    color: white;
+}
+#LoanCalculation{
+    border: 5px solid #e871af;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 995px;
+    left: 450px;
+}
+#LoanCalculation h1{
+    color:#e871af ;
+}
+
+#contact{
+    display: flex;
+    position:relative;
+    bottom: 900px;
+    left: 100px;
+    width: 700px;
+    align-items: center;
+}
+#contact img{
+    height: 50px;
+    width: 50px;
+}
+#contact h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+#searchbox{
+    display: flex;
+    height: 50px;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom: 1945px;
+    left: 1600px;
+}
+#searchbox h1{
+    background-color: #ed017f;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: Sofia;
+    font-weight: 400;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+}
+#searchbox img{
+    height: 50px;
+    width: 50px;
+}
